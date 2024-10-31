@@ -1,24 +1,20 @@
 // Button.vue
 <template>
-    <button class="MyButton" type="button">
+    <button class="z-button" type="button">
       <slot></slot>
     </button>
   </template>
 
-<script lang="ts">
-  export default {
-    name: 'MyButton', //组件名称，必须设置
-    data () {
-      return {}
-    },
-    methods: {},
-    filters: {},
-    created () {}
-  }
+<script lang="ts" setup>
+import { defineOptions } from 'vue';
+
+defineOptions({
+  name: 'z-button' // 组件名称，必须设置
+});
 </script>
 
 <style>
-  .MyButton {
+  .z-button {
     color: #bc4a78;
     border: 1px solid #bc4a78;
     border-radius: 5px;

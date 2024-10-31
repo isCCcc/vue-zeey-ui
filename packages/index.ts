@@ -1,10 +1,10 @@
 //index.ts
 import type { App } from 'vue'
-import MyButton from './Button/index'
+import ZButton from './Button/index'
 
 // 所有组件列表
 const components = [
-    MyButton,
+    ZButton,
 ]
 
 // 定义 install 方法
@@ -22,7 +22,7 @@ const install = (app: App): void => {
 }
 
 export {
-    MyButton,
+    ZButton,
 }
 
 const VueZeeyUI = {

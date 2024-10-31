@@ -10,7 +10,12 @@
 3. 登录 npm 官网：`npm login`.
 4. 切换版本号：`npm version x.x.x`.
 5. 发布组件：`npm publish`.
-6. 注意：首次发布需要前往 npm 官网确认组件的名称是否唯一，如果名称不唯一，需要前往 `package.json` 文件中修改组件名称。
+
+## Tips
+
+注意：
+1. 首次发布需要前往 npm 官网确认组件的名称是否唯一，如果名称不唯一，需要前往 `package.json` 文件中修改组件名称。
+2. 如果执行 `pnpm build` 报错，请先执行 `yarn add terser -D` 安装 Terser。
 
 ## Usage
 
