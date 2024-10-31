@@ -1,0 +1,39 @@
+{
+  "name": "vue-zeey-ui",
+  "private": false,
+  "version": "0.0.5",
+  "author": "Zeey",
+  "description": "组件发布npm练习",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-zeey-ui.umd.cjs",
+  "module": "./dist/vue-zeey-ui.js",
+  "exports": {
+    "./dist/style.css": "./dist/style.css",
+    "./css": "./dist/style.css",
+    ".": {
+      "import": "./dist/vue-zeey-ui.js",
+      "require": "./dist/vue-zeey-ui.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.12",
+    "vue-zeey-ui": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.5",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "terser": "^5.36.0",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8"
+  }
+}
