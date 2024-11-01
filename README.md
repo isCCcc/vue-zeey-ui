@@ -27,3 +27,7 @@
 ### FIXME
 
 无法全局引入组件，只能按需引入，尚需解决。
+
+### Preview
+
+![alt text](image.png)

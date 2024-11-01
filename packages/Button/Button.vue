@@ -40,6 +40,7 @@ defineOptions({
   padding: 10px 20px;
   background-color: #fff;
   width: 100%;
+  position: relative;
   height: 100%;
 }
 
