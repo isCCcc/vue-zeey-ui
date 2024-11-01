@@ -30,4 +30,4 @@
 
 ### Preview
 
-![alt text](./src/assets/button-preview.png)
+![alt text](./static/button-preview.png)
