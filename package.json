@@ -1,7 +1,7 @@
 {
   "name": "vue-zeey-ui",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.1.0",
   "author": "Zeey",
   "description": "组件发布npm练习",
   "type": "module",
@@ -36,6 +36,7 @@
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "terser": "^5.36.0",
     "typescript": "~5.6.2",
+    "sass": "^1.64.1",
     "vite": "^5.4.10",
     "vue-tsc": "^2.1.8"
   }
