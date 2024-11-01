@@ -20,8 +20,8 @@
 ## Usage
 
 1. 安装组件：`npm install vue-zeey-ui`.
-2. 引入组件：`import { MyButton } from 'vue-zeey-ui'`.
-3. 使用组件：`<MyButton>按钮</MyButton>`.
+2. 引入组件：`import { ZButton } from 'vue-zeey-ui'`.
+3. 使用组件：`<ZButton>按钮</ZButton>`.
 4. 如果样式没有生效，需要在 `main.ts` 中引入 `vue-zeey-ui/css` 文件。
 
 ### FIXME

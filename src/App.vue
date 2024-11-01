@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import MyButton from '../packages/Button/Button.vue'
+import ZButton from '../packages/Button/Button.vue'
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import MyButton from '../packages/Button/Button.vue'
     </a>
   </div>
   <div class="button-container">
-    <MyButton />
+    <ZButton />
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
