@@ -1,7 +1,7 @@
 {
   "name": "vue-zeey-ui",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Zeey",
   "description": "组件发布npm练习",
   "type": "module",
