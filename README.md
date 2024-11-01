@@ -28,11 +28,6 @@
 
 无法全局引入组件，只能按需引入，尚需解决。
 
-### Preview
-
-![alt text](./packages/static/button-preview.png)
-
-
 ### More
 
 GitHub 仓库：[zeey-ui](https://github.com/isCCcc/zeey-ui)
