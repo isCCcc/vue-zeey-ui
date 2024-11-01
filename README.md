@@ -31,3 +31,8 @@
 ### Preview
 
 ![alt text](./packages/static/button-preview.png)
+
+
+### More
+
+GitHub 仓库：[zeey-ui](https://github.com/isCCcc/zeey-ui)
